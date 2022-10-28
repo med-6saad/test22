@@ -115,7 +115,7 @@ function AddCategory() {
         <Wrapper>
             <Left>
                 <Title>Categories</Title>
-                <Form action='#' onSubmit={(e)=>handelSubmit(e)}>
+                <Form onSubmit={(e)=>handelSubmit(e)}>
                     <Label>Name Category</Label>
                     <Input type='test' ref={name} placeholder="enter your gategory name" required/>
                     <Label>Small description</Label>
